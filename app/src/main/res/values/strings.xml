@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">"Android &amp; Java8 "</string>
+    <string name="lambda">Lambda Toasting!</string>
+</resources>

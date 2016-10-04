@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">"Android &amp; Java8 "</string>
     <string name="lambda">Lambda Toasting!</string>
+    <string name="sort_by">Sorty by</string>
+    <string name="age">Age</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="full_name">Full name</string>
 </resources>

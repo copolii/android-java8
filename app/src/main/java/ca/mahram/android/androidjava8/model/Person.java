@@ -1,21 +1,31 @@
 package ca.mahram.android.androidjava8.model;
 
+import android.net.Uri;
+import android.os.Build;
 import android.support.annotation.NonNull;
 
 import org.joda.time.Period;
 import org.joda.time.PeriodType;
 
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
+
+import ca.mahram.android.androidjava8.annotations.Photo;
 
 /**
  Created by mahramf on 2016-10-03.
  */
 public class Person {
+    public final int id;
     public final @NonNull String firstName;
     public final @NonNull String lastName;
     public final @NonNull Date   birthdayUTC;
 
+    private static int autoId = 0;
+
     public Person (final String fn, final String ln, final Date bd) {
+        id = ++autoId;
         firstName = fn;
         lastName = ln;
         birthdayUTC = bd;
